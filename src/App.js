@@ -1,13 +1,17 @@
-import './App.css';
-import Navbar from './components/Navbar';
-import AllRoutes from './pages/AllRoutes';
+import { Box, Container } from "@chakra-ui/react";
+import "./App.css";
+import Navbar from "./components/Navbar";
+import AllRoutes from "./pages/AllRoutes";
 
 function App() {
   return (
-   <div>
-    <Navbar />
-    <AllRoutes />
-   </div>
+    <Container maxW='100%'>
+     
+      <Box>
+        <Navbar />
+        <AllRoutes />
+      </Box>
+    </Container>
   );
 }
 

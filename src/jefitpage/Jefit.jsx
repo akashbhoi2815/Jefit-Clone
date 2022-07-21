@@ -5,6 +5,7 @@ import TopSection from './1top/TopSection'
 import WorkOut from './3workoutNeed/WorkOut'
 import Plans from './4plan/Plans'
 
+
 const Jefit = () => {
   return (
     <Box>
@@ -12,6 +13,7 @@ const Jefit = () => {
         <ConnectMembers />
         <WorkOut />
         <Plans/>
+        
     </Box>
   )
 }

@@ -23,9 +23,8 @@ const Plans = () => {
         fontStyle="normal"
         h={202}
         display="block"
-        border="0.0000000009px solid black"
       >
-        <Heading  m={150}>
+        <Heading  m={10}  pt={120}>
           PLANS THAT SUIT YOU BEST
         </Heading>
       </Box>
