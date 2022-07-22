@@ -63,18 +63,28 @@ const Footer = () => {
       </Box>
       <Box
         //   bgColor="black"
-        filter='auto' brightness='40%'
+        filter="auto"
+        brightness="60%"
         bgImage="url('https://www.jefit.com/wp/wp-content/uploads/2021/12/group-muscular-athletes-doing-workout-gym-gymnastics-training-fitness-workout-flexibility-active-healthy-lifestyle-youth-bodybuilding-training-with-weights-doing-squats-scaled-1.jpg')"
         bgPos="center"
         bgRepeat="no-repeat"
         bgSize="100%"
         size="100%"
         h={200}
-        color="white"
       >
-        <Flex gap={3} align="center" justifyContent="center">
+        <Flex
+          gap={6}
+          align="center"
+          justifyContent="space-between"
+          w="60%"
+          m="auto"
+          pt={50}
+          filter="auto"
+          brightness="100%"
+          color="white"
+        >
           {data.map((e) => (
-            <Flex direction="column">
+            <Flex direction="column" gap={2}>
               {e.arr.map((el) => (
                 <Link
                   fontSize="16px"
