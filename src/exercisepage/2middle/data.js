@@ -1,4 +1,5 @@
-export default [
+let data;
+export default data = [
     {
         img:"https://www.jefit.com/images/exercises/800_600/4268.jpg",
         link:"Barbell Reverse Grip Incline Bench Press",
@@ -83,6 +84,11 @@ export default [
         img:"https://www.jefit.com/images/exercises/800_600/984.jpg",
         link:"Cable Standing One-Arm Tricep Extension",
         types:"Triceps, Glutes, Back"
+    },
+    {
+        img:"https://www.jefit.com/images/exercises/800_600/904.jpg",
+        link:"Cable Lying Tricep Extension",
+        types:" Triceps, Triceps, Lower Legs"
     },
 
 ]

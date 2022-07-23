@@ -1,7 +1,6 @@
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
-// import 'swiper/swiper.min.css'
 import "./MemberStyle.css";
 import slideData from './MemberData'
 
@@ -15,6 +14,7 @@ SwiperCore.use([Autoplay, Pagination, Navigation]);
 export default function ConnectMembers() {
   return (
     <Box
+    className="main"
       p="100px"
       alignSelf="center"
       textAlign="center"
@@ -24,21 +24,14 @@ export default function ConnectMembers() {
     >
       <Box>
         <Heading
-          fontWeight="700"
-          fontStyle="normal"
-          fontFamily="Montserrat - 700"
-          fontSize="36px"
-          fon
+          variant={"solid"}
         >
           CONNECT WITH OVER 10 MILLION JEFIT MEMBERS
         </Heading>
         <br />
         
         <Heading
-          fontWeight="400"
-          fontStyle="normal"
-          fontFamily="DM Sans - 400"
-          fontSize="22px"
+          variant={"smooth"}
         >
           As the most active workout community, we invite you and your friends
           to join us and support each other.

@@ -1,5 +1,6 @@
 
-export default [
+let data;
+export default data = [
     {
         url1:"https://www.jefit.com/images/exercises/800_600/3468.jpg",
         url2:"https://www.jefit.com/images/exercises/800_600/3469.jpg",
@@ -135,33 +136,3 @@ export default [
 ]
 
 
-// export default [
-//     {
-//         url1:"",
-//         url2:"",
-//         info:{
-//                 Title:"",
-//                 group:"Main Muscle Group : Glutes",
-//                 type:"Type : Strength",
-//                 equip:"Equipment : Barbell"
-
-//             },
-//         button:"View History",
-        
-//     },
-//     {
-//         url1:"",
-//         url2:"",
-//         info:{
-//                 Title:"",
-//                 group:"Main Muscle Group : Glutes",
-//                 type:"Type : Strength",
-//                 equip:"Equipment : Barbell"
-
-//             },
-//         button:"View History",
-//         bg:"#f4f4f4"
-//     },
-    
-
-// ]

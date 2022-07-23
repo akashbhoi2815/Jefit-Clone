@@ -15,7 +15,7 @@ const MobileApp = () => {
           WANT TO BUILD YOUR OWN WORKOUT PLAN?
         </Heading>
         <Text
-          p={5}
+          p={5} 
           fontSize="22px"
           fontFamily="DM Serif Text -400"
           fontWeight={400}

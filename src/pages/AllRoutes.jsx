@@ -16,6 +16,7 @@ import Exercise from '../exercisepage/Exercise'
 
 import Jefit from '../jefitpage/Jefit'
 import Login from './Login'
+import Signup from './Signup'
 
 const AllRoutes = () => {
   return (
@@ -24,7 +25,7 @@ const AllRoutes = () => {
             <Route path='/' element={<Jefit/>}/>
             <Route path='/exercise' element={<Exercise/>}/>
             <Route path='/login' element={<Login/>}/>
-            <Route path='/signup' element={<div>signupn</div>}/>
+            <Route path='/signup' element={<Signup/>}/>
             <Route path='/triceps' element={<Triceps/>}/>
             <Route path='/biceps' element={<Biceps/>}/>
             <Route path='/back' element={<Back/>}/>
