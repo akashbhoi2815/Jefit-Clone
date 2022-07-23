@@ -1,4 +1,5 @@
-export default [
+let data;
+export default data = [
     {
         url1:"https://www.jefit.com/images/exercises/800_600/1456.jpg",
         url2:"https://www.jefit.com/images/exercises/800_600/1457.jpg",
@@ -129,18 +130,6 @@ export default [
         button:"View History",
         bg:"#f4f4f4"
     },
-    {
-        url1:"",
-        url2:"",
-        info:{
-                Title:"",
-                group:"Main Muscle Group : Biceps",
-                type:"Type : Strength",
-                equip:"Equipment : Barbell"
-
-            },
-        button:"View History",
-        
-    },
+    
 
 ]

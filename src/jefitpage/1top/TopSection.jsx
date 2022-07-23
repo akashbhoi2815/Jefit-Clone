@@ -3,7 +3,7 @@ import React from "react";
 
 const TopSection = () => {
   return (
-    <Box
+    <Box 
       bgImage="url('https://www.jefit.com/wp/wp-content/uploads/2021/11/caucasian-man-practicing-weightlifting-gym-2-scaled-1.jpg')"
       bgPos="center"
       bgRepeat="no-repeat"
@@ -12,11 +12,11 @@ const TopSection = () => {
     >
       <Flex color="white"  align="center" justify="center" h="100vh">
         <Box alignSelf="center">
-          <Heading fontFamily="Montserrat - 700" fontSize="42px" fontWeight={700}>MANAGE & TRACK </Heading>
-          <Heading fontFamily="Montserrat - 700" fontSize="42px" fontWeight={700}>ALL YOUR WORKOUT </Heading>
-          <Heading fontFamily="Montserrat - 700" fontSize="42px" fontWeight={700}>IN ONE PLACE</Heading>
+          <Heading variant={"outline"}>MANAGE & TRACK </Heading>
+          <Heading variant={"outline"}>ALL YOUR WORKOUT </Heading>
+          <Heading variant={"outline"}>IN ONE PLACE</Heading>
           <br />
-          <Heading as="h5" size="lg" fontFamily="DM Sans - 600" fontStyle="italic" fontSize="26px" fontWeight="600">
+          <Heading variant={"ghost"} >
             #1 Popular Workout Tracking Platform
           </Heading>
           <br />

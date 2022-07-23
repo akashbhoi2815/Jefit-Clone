@@ -22,9 +22,9 @@ const New = () => {
       </Text>
       <br />
       <br />
-      <Grid templateColumns="repeat(6, 1fr)" gap={6} w="80%" m="auto">
+      <Grid templateColumns="repeat(6, 1fr)" gap={8} w="80%" m="auto">
         {data.map((e) => (
-          <GridItem>
+          <GridItem textAlign="center" key={e.link}>
             <Image w={100} src={e.img} alt="" />
             <Link
               fontFamily="DM Sans- 400"

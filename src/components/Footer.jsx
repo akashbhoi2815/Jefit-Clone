@@ -9,7 +9,6 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import data from "./FooterData";
-console.log(data);
 
 const Footer = () => {
   return (

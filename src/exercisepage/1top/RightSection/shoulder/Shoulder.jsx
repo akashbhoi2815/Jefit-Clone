@@ -12,7 +12,7 @@ const Shoulder = () => {
         <hr />
             {
                 data.map((e)=>(
-                    <Flex gap="2rem" justifyContent="center" align="center" bgColor={e.bg} >
+                    <Flex gap="2rem" justifyContent="center" align="center" bgColor={e.bg} key={e.url1}>
                         <Box>
                             <Image p={3} w={200} src={e.url1}/>
                         </Box>

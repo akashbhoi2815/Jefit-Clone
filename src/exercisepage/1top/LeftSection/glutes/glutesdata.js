@@ -1,4 +1,5 @@
-export default [
+let data;
+export default data = [
     {
         url1:"https://www.jefit.com/images/exercises/800_600/2184.jpg",
         url2:"https://www.jefit.com/images/exercises/800_600/2185.jpg",

@@ -5,11 +5,8 @@ const WorkOut = () => {
   return (
     <Box p={40} mb="0px" pt="80px">
       <Heading
-        fontFamily="Montserrat - 700"
-        fontSize="30px"
-        fontWeight="700"
-        textAlign="center"
-        fontStyle="normal"
+      variant={"normal"}
+        
       >
         JEFIT COVERS ALL OF YOUR WORKOUT NEEDS
       </Heading>
@@ -20,18 +17,12 @@ const WorkOut = () => {
       <Flex>
         <Box alignSelf="center" m="auto" mr={10}>
         <Heading
-            fontFamily="Montserrat - 700"
-            fontSize="30px"
-            fontWeight="700"
-            fontStyle="normal"
+            variant={"normal"}
           >
             PERSONALIZE YOUR
           </Heading>
           <Heading
-            fontFamily="Montserrat - 700"
-            fontSize="30px"
-            fontWeight="700"
-            fontStyle="normal"
+             variant={"normal"}
           >
             WORKOUT PLANS
           </Heading>
@@ -42,13 +33,10 @@ const WorkOut = () => {
           <Text fontSize="m">Audio and video instructions</Text>
           <br />
           <Button
-            bgColor="#00a9ff"
-            color="white"
+            variant={"ghost"}
             borderRadius="20px"
             w="160px"
-            fontFamily="Montserrat - 700"
-            fontSize="20px"
-            fontWeight="700"
+            
           >
             SIGN UP NOW
           </Button>
@@ -75,18 +63,12 @@ const WorkOut = () => {
         </Box>
         <Box alignSelf="center" m="auto" mr={125}>
           <Heading
-            fontFamily="Montserrat - 700"
-            fontSize="30px"
-            fontWeight="700"
-            fontStyle="normal"
+            variant={"normal"}
           >
             PERSONALIZE YOUR
           </Heading>
           <Heading
-            fontFamily="Montserrat - 700"
-            fontSize="30px"
-            fontWeight="700"
-            fontStyle="normal"
+            variant={"normal"}
           >
             WORKOUT PLANS
           </Heading>
@@ -97,13 +79,9 @@ const WorkOut = () => {
           <Text fontSize="m">Flexible workout planning tool</Text>
           <br />
           <Button
-            bgColor="#00a9ff"
-            color="white"
+            variant={"ghost"}
             borderRadius="20px"
             w="160px"
-            fontFamily="Montserrat - 700"
-            fontSize="20px"
-            fontWeight="700"
           >
             SIGN UP NOW
           </Button>
@@ -116,18 +94,12 @@ const WorkOut = () => {
       <Flex>
         <Box alignSelf="center" m="auto" mr={10}>
           <Heading
-            fontFamily="Montserrat - 700"
-            fontSize="30px"
-            fontWeight="700"
-            fontStyle="normal"
+            variant={"normal"}
           >
            VIEW PROGRESS &
           </Heading>
           <Heading
-            fontFamily="Montserrat - 700"
-            fontSize="30px"
-            fontWeight="700"
-            fontStyle="normal"
+            variant={"normal"}
           >
            REACH NEW LIMITS
           </Heading>
@@ -138,13 +110,9 @@ const WorkOut = () => {
           <Text fontSize="m">Audio and video instructions</Text>
           <br />
           <Button
-            bgColor="#00a9ff"
-            color="white"
+            variant={"ghost"}
             borderRadius="20px"
             w="160px"
-            fontFamily="Montserrat - 700"
-            fontSize="20px"
-            fontWeight="700"
           >
             SIGN UP NOW
           </Button>

@@ -22,10 +22,7 @@ export default function Featured() {
     >
       <Box>
         <Heading
-          fontWeight="700"
-          fontStyle="normal"
-          fontFamily="Montserrat - 700"
-          fontSize="36px"
+         variant={"solid"}
           
         >
           JEFIT HAS BEEN FEATURED BY
